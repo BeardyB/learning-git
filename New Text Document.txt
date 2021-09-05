@@ -1,0 +1,5 @@
+again
+	git stash save "comment"	Create stash of current changes
+	git stash list	show all stashes
+	git stash apply stash@{0}	apply the first stash in list (the stash will not be deleted from this list after applying it)
+	git stash pop	applies the first stash and deletes it from stash list
